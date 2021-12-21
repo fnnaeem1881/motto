@@ -148,3 +148,23 @@ section#showpage {
     background-attachment: fixed;
     right: 0;
 }
+.showpage_title-wrap {
+    padding: 10px;
+}
+
+.showpage_title-wrap h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #000;
+    line-height: 131%;
+    padding-top: 25px;
+}
+
+.showpage_title-wrap p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-right: 110px;
+    font-family: sans-serif;
+}
