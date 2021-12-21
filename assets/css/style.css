@@ -1,0 +1,150 @@
+* {
+    --tw-ring-inset: var(--tw-empty);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    /* --tw-ring-color: rgba(59,130,246,0.5); */
+    --tw-ring-offset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+}
+
+/* Header Css */
+.container-header {
+    width: 94% !important;
+    overflow: hidden;
+    margin: auto;
+}
+header.header.mt-4 {
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+}
+
+.header_svg_ico {
+    width: 35px;
+    border-radius: 50%;
+    border: solid 5px #1dd4df;
+    float: right;
+}
+.logo_menu {
+    width: 70%;
+    float: left;
+}
+.logo svg {
+    color: #000;
+    width: 80%;
+    padding: 7px 0px 20px 0px;
+}
+
+.contact_info_header {
+    width: 30%;
+    float: left;
+}
+
+.logo {
+    width: 18%;
+    float: left;
+    overflow: hidden;
+}
+.menu ul li {
+    display: inline;
+    padding: 10px;
+}
+
+.menu {
+    overflow: hidden;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #434647;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.header_num {
+    width: 46%;
+    background: #e51717b3;
+    padding: 7px 35px;
+    border-radius: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+.header_num a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    margin: auto;
+}
+span.header_ico_chaild_one {
+    overflow: hidden;
+    width: 17%;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+
+span.header_ico_chaild_one svg {
+    color: tomato;
+    padding: 3px;
+    width: 100%;
+}
+.header_ico_title {
+    width: 10%;
+    float: left;
+    font-weight: 700;
+    padding: 7px 0px 0px 7px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.header_ico_title a {
+    text-decoration: none;
+}
+.wp_header_ico_wrap {
+    width: 25%;
+    float: right;
+    padding: 7px 0px 10px;
+}
+.menu ul {
+    padding: 10px 0px 20px 30px;
+}
+
+.header_num:hover {
+    background: #991b1b;
+}
+
+.header_num a:hover {
+    color: #fff;
+}
+.logo svg:hover {
+    color: #14cdab;
+}
+
+/* 
+
+
+*/
+section#showpage {
+    background: rgb(10, 227, 230);
+    background: linear-gradient(0deg, rgba(10, 227, 230, 1) 0%, rgba(149, 199, 196, 1) 0%, rgba(9, 226, 199, 1) 0%, rgba(13, 211, 250, 1) 0%, rgba(231, 251, 255, 1) 74%);
+    height: 500px;
+}
+
+.showpage::after{
+    content: '';
+    background-image: url(../image/svg/wave-left-heavy.svg);
+    /* z-index: 1; */
+    display: block;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    height: 76%;
+    background-size: 100% 80%;
+    bottom: 0;
+    background-attachment: fixed;
+    right: 0;
+}
